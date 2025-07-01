@@ -1,0 +1,19 @@
+import os
+
+folders = [
+    "data/raw",
+    "src/ingestion",
+    "src/transformation",
+    "src/dq_checks",
+    "src/orchestration",
+    "warehouse/snowflake",
+    "warehouse/redshift",
+    "reports/power_bi",
+    "docs",
+    "tests"
+]
+
+for folder in folders:
+    os.makedirs(folder, exist_ok=True)
+    with open(os.path.join(folder, ".gitkeep"), "w") as f:
+        f.write("")

@@ -1,2 +1,3 @@
-# HealthOps360-Analytics-Platform
-A data engineering and analytics project simulating patient journey and hospital operations using batch + real-time data.
+# HealthOps360 Analytics Platform
+
+Project to simulate hospital analytics using batch and real-time data engineering techniques.
