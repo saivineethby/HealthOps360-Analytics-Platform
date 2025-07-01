@@ -15,5 +15,6 @@ folders = [
 
 for folder in folders:
     os.makedirs(folder, exist_ok=True)
-    with open(os.path.join(folder, ".gitkeep"), "w") as f:
+    gitkeep_path = os.path.join(folder, ".gitkeep")
+    with open(gitkeep_path, "w") as f:
         f.write("")
